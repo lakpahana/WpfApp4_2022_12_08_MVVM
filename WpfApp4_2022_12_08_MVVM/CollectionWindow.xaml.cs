@@ -21,6 +21,7 @@ namespace WpfApp4_2022_12_08_MVVM
     {
         public CollectionWindow()
         {
+            DataContext = new CollectionWindowVM();
             InitializeComponent();
         }
     }
